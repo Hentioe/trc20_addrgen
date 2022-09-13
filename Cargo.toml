@@ -5,6 +5,10 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[[bin]]
+name = "trc20-adrrgen"
+path = "src/main.rs"
+
 [dependencies]
 libsecp256k1 = "0.7.1"
 rand = "0.8"
